@@ -38,12 +38,12 @@ $(function() {
       $('kbd,.bg-'+btcolor[j]).removeClass('text-'+btcolor[j]);
     } // Removing some unwanted {color} classes.
 
-    if (n == 5) {                                                                      // Correcting Warning color.
+    if (n == 5) { // Correcting Warning color.
 
       $('.bg-warning:not(.navbar)').addClass('text-body'); // Yellow background and Black text.
       $('.bg-warning.navbar').addClass('navbar-light'); // Yellow background and Black text.
 
-    } else if (n == 6) {                                                               // Correcting Light color.
+    } else if (n == 6) { // Correcting Light color.
 
       $('.progress-bar.bg-light').removeClass('bg-light').addClass('bg-dark'); // Dark bar is better than Light bar.
       $('.bg-light:not(.navbar)').addClass('text-body'); // Light background and Black text.
@@ -60,7 +60,7 @@ $(function() {
       $('thead.bg-light').removeClass('bg-light').addClass('thead-light'); // thead-light is better than bg-light.
       $('.text-light').addClass('bg-black'); // Adding class for white background.
 
-    } else if (n == 7) {                                                              // Correcting Dark color.
+    } else if (n == 7) { // Correcting Dark color.
 
       $('.bg-dark:not(.navbar)').removeClass('text-dark').addClass('text-white'); // Dark background and White text.
       $('.bg-dark.navbar').removeClass('text-dark').addClass('navbar-dark'); // Dark background and White text.
@@ -75,7 +75,7 @@ $(function() {
       $('tr.table-dark').addClass('text-body'); // Fixing White text on tr.table-dark
       $('.text-dark').removeClass('text-dark').addClass('text-muted bz'); // "bz" is a Mark for text-{color} class.
 
-    } else {                                     // Correcting Primary, Secondary, Success, Info and Danger colors.
+    } else { // Correcting Primary, Secondary, Success, Info and Danger colors.
 
       $('.bg-'+btcolor[n]+':not(.navbar)').addClass('text-white'); // Colored background and White text.
       $('.bg-'+btcolor[n]+'.navbar').addClass('navbar-dark'); // Colored background and White text.
