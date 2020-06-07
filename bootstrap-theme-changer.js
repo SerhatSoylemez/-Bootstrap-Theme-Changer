@@ -1,4 +1,4 @@
-// Author: Serhat Soylemez
+// Author: Serhat SOYLEMEZ
 
 var btclass = ['table-', 'btn-', 'btn-outline-', 'badge-', 'alert-', 'list-group-item-', 'bg-', 'border-', 'text-'];
 var btcolor = ['primary', 'secondary', 'success', 'info', 'danger', 'warning', 'light', 'dark']; // Colors.
